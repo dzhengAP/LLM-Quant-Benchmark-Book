@@ -12,7 +12,7 @@ A comprehensive, from-scratch comparison of 7 quantization methods on **Qwen2-0.
 | SmoothQuant | PTQ | 8 | Migrate outliers from activations → weights |
 | GPTQ | PTQ | 4 | Hessian-based column-wise error compensation |
 | AWQ | PTQ | 4 | Activation-aware channel scaling before quant |
-| **Palletization 4-bit** | **Codebook** | **4** | **K-means LUT, Apple CoreML style** |
+| Palletization 4-bit | Codebook | 4 | K-means LUT |
 | QLoRA NF4 | PTQ | ~4.1 | Normal Float quantile grid + double quantization |
 
 ## Why Palletization is Different
